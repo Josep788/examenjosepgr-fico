@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Ventas producto z 2020-2021') }}
+            {{ __('Ventas producto Z 2020-2021') }}
         </h2>
     </x-slot>
     <div class="py-12">
@@ -21,7 +21,7 @@
     data: {
         labels: <?php echo json_encode($meses);?>,
         datasets: [{
-            label: 'Ventas del producto z 2020',
+            label: 'Ventas del producto Z 2020',
             data: <?php echo json_encode($ventas2020);?>,
             pointStyle: 'rectRot',
             pointRadius: 10,
@@ -39,7 +39,7 @@
         },
     
         {
-            label: 'Ventas del producto z 2021',
+            label: 'Ventas del producto Z 2021',
             data: <?php echo json_encode($ventas2021);?>,
             pointStyle: 'rectRot',
             pointRadius: 10,

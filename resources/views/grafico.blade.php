@@ -23,21 +23,16 @@
         datasets: [{
             label: 'Ventas del producto z 2020',
             data: <?php echo json_encode($ventas2020);?>,
+            pointStyle: 'rectRot',
+            pointRadius: 10,
+            pointHoverRadius: 15,
+            pointBorderColor: 'rgb(0, 0, 0)',
             backgroundColor: [
                 'rgba(255, 99, 32, 0.5)',
-                'rgba(54, 162, 35, 0.5)',
-                'rgba(255, 206, 6, 0.5)',
-                'rgba(75, 192, 192, 0.5)',
-                'rgba(153, 102, 255, 0.5)',
-                'rgba(255, 10, 25, 0.2)',
             ],
+            
             borderColor: [
                 'rgba(255, 99, 32, 1)',
-                'rgba(54, 162, 35, 1)',
-                'rgba(255, 206, 6, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 10, 25, 1)',
             ],
             borderWidth: 2
         },
@@ -45,21 +40,15 @@
         {
             label: 'Ventas del producto z 2021',
             data: <?php echo json_encode($ventas2021);?>,
+            pointStyle: 'rectRot',
+            pointRadius: 10,
+            pointHoverRadius: 15,
+            pointBorderColor: 'rgb(0, 0, 0)',
             backgroundColor: [
-                'rgba(324, 3, 235, 0.5)',
                 'rgba(0, 0, 532, 0.5)',
-                'rgba(215, 196, 16, 0.5)',
-                'rgba(75, 250, 10, 0.5)',
-                'rgba(153, 102, 255, 0.5)',
-                'rgba(255, 159, 64, 0.2)',
             ],
             borderColor: [
-                'rgba(324, 3, 235, 1)',
                 'rgba(0, 0, 532, 1)',
-                'rgba(215, 196, 16, 1)',
-                'rgba(75, 250, 10, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)',
             ],
             borderWidth: 2
         }]

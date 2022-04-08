@@ -46,16 +46,16 @@
             label: 'Ventas del producto z 2021',
             data: <?php echo json_encode($ventas2021);?>,
             backgroundColor: [
-                'rgba(0, 0, 532, 0.5)',
                 'rgba(324, 3, 235, 0.5)',
+                'rgba(0, 0, 532, 0.5)',
                 'rgba(215, 196, 16, 0.5)',
                 'rgba(75, 250, 10, 0.5)',
                 'rgba(153, 102, 255, 0.5)',
                 'rgba(255, 159, 64, 0.2)',
             ],
             borderColor: [
-                'rgba(0, 0, 532, 1)',
                 'rgba(324, 3, 235, 1)',
+                'rgba(0, 0, 532, 1)',
                 'rgba(215, 196, 16, 1)',
                 'rgba(75, 250, 10, 1)',
                 'rgba(153, 102, 255, 1)',

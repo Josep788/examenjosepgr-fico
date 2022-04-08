@@ -27,6 +27,7 @@
             pointRadius: 10,
             pointHoverRadius: 15,
             pointBorderColor: 'rgb(0, 0, 0)',
+            borderDash: [5, 5],
             backgroundColor: [
                 'rgba(255, 99, 32, 0.5)',
             ],
